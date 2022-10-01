@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "courier new", "lucida console", monaco, monospace;
+}
+
+/* Style the header */
+header {
+  background-color: #053352;
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border: 2px solid black;
+}
+
+/* Create two columns/boxes that floats next to each other - menu*/
+nav {
+  float: left;
+  width: 30%;
+  height: 1000px;
+  background: #053352;
+  padding: 20px;
+  color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+  color: white;
+}
+
+/* Right text, like the article */
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #212f38;
+  height: 1000px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #053352;
+  padding: 0px;
+  text-align: center;
+  color: white;
+  border: 2px solid black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* links */
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #dee0e3;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #cccccc;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #cccccc;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+<header id="top">
+  <h2>Comets, Asteroids, and Meteors</h2>
+  <p>By Octavius Szeto</p>
+</header>
+
+<section>
+  <nav>
+  	<h3>Menu</h3>
+    <!--Add in links in href later-->
+    <ul>
+      <li><a href="https://octaviustheking.github.io/Home-CAM-Project/">Home</a></li>
+      <li><a href="https://octaviustheking.github.io/Comets-CAM-Project/">Comets</a></li>
+      <li><a href="https://octaviustheking.github.io/Asteroids-CAM-Project/">Asteroids</a></li>
+      <li><a href="https://octaviustheking.github.io/MMM-CAM-Project/">Meteors, Meteoroids, and Meteorites</a></li>
+      <li><a href="https://octaviustheking.github.io/Extras-CAM-Project/">Extras</a></li>
+      <li><a href="https://octaviustheking.github.io/Sources-CAM-Project/">Sources</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2>Sources</h2>
+    <p>These sources are presented in MLA9 format.</p>
+    <ul>
+      <!--Turn these into MLA9 citation and sort in alphabet order-->
+      <!--Set target to _blank-->
+      <!--Also, sort into categories, ie asteroid, comet, meteor, etc-->
+      <h3>Asteroids</h3>
+      <li>“4 Vesta.” Wikipedia, Wikimedia Foundation, 23 Sept. 2022, https://en.wikipedia.org/wiki/4_Vesta. </li>
+      <li>Atkinson, Nancy. “What Are Asteroids Made of?” Universe Today, 24 Dec. 2015, https://www.universetoday.com/37425/what-are-asteroids-made-of/#:~:text=They%20are%20made%20up%20of,as%20osmium%2C%20ruthenium%20and%20rhodium. </li>
+      <li>Bardan, Roxana. “NASA's Dart Mission Hits Asteroid in First-Ever Planetary Defense Test.” NASA, NASA, 27 Sept. 2022, https://www.nasa.gov/press-release/nasa-s-dart-mission-hits-asteroid-in-first-ever-planetary-defense-test. </li>
+      <li>“Ceres (Dwarf Planet).” Wikipedia, Wikimedia Foundation, 25 Sept. 2022, https://en.wikipedia.org/wiki/Ceres_(dwarf_planet). </li>
+      <li>“Chelyabinsk Meteorite.” Wikipedia, Wikimedia Foundation, 21 June 2022, https://en.wikipedia.org/wiki/Chelyabinsk_meteorite. </li>
+      <li>“Comets, Asteroids, Meteoroids.” CuriousCrosswords.com, Accessed 22 Sept. 2022. </li>
+      <li>“List of Exceptional Asteroids.” Wikipedia, Wikimedia Foundation, 20 Sept. 2022, https://en.wikipedia.org/wiki/List_of_exceptional_asteroids. </li>
+      <li>Space. “What Is Our Sun Made of?” Space.com, Space, 1 Mar. 2012, https://www.space.com/14745-sun-composition.html#:~:text=The%20sun%20is%20mostly%20composed,Fahrenheit%20(5%2C726%20degrees%20Celsius). </li>
+      <li>Veritaserum. These Are the Asteroids to Worry About. YouTube, YouTube, 30 Nov. 2020, https://www.youtube.com/watch?v=4Wrc4fHSCpw. Accessed 30 Sept. 2022. </li>
+      <li>WSJDigitalNetwork. NASA’s DART Mission Tests Earth’s Defenses Against Asteroids. YouTube, YouTube, 27 Sept. 2022, https://www.youtube.com/watch?v=e4JfVcCdrNE. Accessed 30 Sept. 2022. </li>
+      <h3>Comets</h3>
+      <li>“Comets, Asteroids, Meteoroids.” CuriousCrosswords.com, Accessed 22 Sept. 2022. </li>
+      <li>“Comets.” NASA, NASA, 8 July 2021, https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/overview/?page=0&amp;per_page=40&amp;order=name%2Basc&amp;search=&amp;condition_1=102%3Aparent_id&amp;condition_2=comet%3Abody_type%3Ailike. </li>
+      <li>“In Depth.” NASA, NASA, 19 Dec. 2019, https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/in-depth/. </li>
+      <li>“In Depth.” NASA, NASA, 16 Sept. 2022, https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/. </li>
+      <li>“Kuiper Belt.” NASA, NASA, 17 Nov. 2021, https://solarsystem.nasa.gov/solar-system/kuiper-belt/overview/#:~:text=The%20Kuiper%20Belt%20is%20a%20doughnut%2Dshaped%20ring%20of%20icy,about%2030%20to%2055%20AU. </li>
+      <li>“Oort Cloud.” NASA, NASA, 6 June 2019, https://solarsystem.nasa.gov/solar-system/oort-cloud/overview/#:~:text=The%20Oort%20Cloud%20is%20a%20spherical%20layer%20of%20icy%20objects,(AU)%20from%20the%20Sun. </li>
+      <li>“Halley's Comet.” Wikipedia, Wikimedia Foundation, 28 Sept. 2022, https://en.wikipedia.org/wiki/Halley%27s_Comet#:~:text=Halley's%20Comet%20or%20Comet%20Halley,twice%20in%20a%20human%20lifetime. </li>
+      <li>Howell, Elizabeth. “Shoemaker-Levy 9: Comet's Impact Left Its Mark on Jupiter.” Space.com, Space, 24 Jan. 2018, https://www.space.com/19855-shoemaker-levy-9.html. </li>
+      <li>“Sublimation (Phase Transition).” Wikipedia, Wikimedia Foundation, 14 July 2022, https://en.wikipedia.org/wiki/Sublimation_(phase_transition). </li>
+      <h3>Meteors, Meteoroids, and Meteorites</h3>
+      <li>“Comets, Asteroids, Meteoroids.” CuriousCrosswords.com, Accessed 22 Sept. 2022. </li>
+      <li>“In Depth.” NASA, NASA, 19 Dec. 2019, https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/in-depth/. </li>
+      <li>“In Depth.” NASA, NASA, 11 May 2020, https://solarsystem.nasa.gov/asteroids-comets-and-meteors/meteors-and-meteorites/in-depth/. </li>
+      <li>“Meteor Shower.” Wikipedia, Wikimedia Foundation, 12 Aug. 2022, https://en.wikipedia.org/wiki/Meteor_shower. </li>
+      <li>PBS. Meteors: Crash Course Astronomy #23. YouTube, YouTube, 2 July 2015, https://www.youtube.com/watch?v=TuDfZ2Md5x8. Accessed 1 Oct. 2022. </li>
+    </ul>
+  </article>
+</section>
+
+<footer>
+  <p>This was created using HTML and CSS!</p>
+  <p><a href="#top">Back to the top</a></p>
+</footer>
+
+</body>
+</html>
